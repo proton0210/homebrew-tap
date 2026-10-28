@@ -1,9 +1,9 @@
 cask "buckets" do
   arch arm: "arm64", intel: "x64"
 
-  version "2.9.0"
-  sha256 arm:   "7e99b0e42589b9830d69b644beb7caa2cf9dcd2f1a6d72083b65ef286856dc28",
-         intel: "954d46995685270adc4a35c1c4684fee8e57c1989a6afe040141c2c7b58e1257"
+  version "2.9.1"
+  sha256 arm:   "7ace96a77d8315362f736dcbaea8e3dfd71121f22cb480faf77452f5ab69f650",
+         intel: "8ae583d872996e5fd7c58aba9ab3ff769cacc2d8bee9dbd83be9724474da5c9f"
 
   url "https://github.com/proton0210/S3Console-Public-Releases/releases/download/v#{version}/Buckets-#{version}-mac-#{arch}.zip",
       verified: "github.com/proton0210/S3Console-Public-Releases/"
