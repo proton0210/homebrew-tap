@@ -1,9 +1,9 @@
 cask "tables" do
   arch arm: "arm64", intel: "x64"
 
-  version "3.3.42"
-  sha256 arm:   "247e65d25f500eadf7f97027f7a5409296e21266b3a361693d895af8279b8129",
-         intel: "0bf13cc10f6591c68207655219d5508f59b886901fd2c3849df9013c420c2bed"
+  version "3.3.43"
+  sha256 arm:   "c9c65616da9e2a561c8ee0355bd518e2b20a17c66d30af892ed6fdca80f961e2",
+         intel: "e2e05864347a9552ec34a0fbd73ce797a08ddf513af0688aa7d1cadc554a3daa"
 
   url "https://github.com/proton0210/DynoConsole-Public-Releases/releases/download/v#{version}/Tables-#{version}-mac-#{arch}.dmg",
       verified: "github.com/proton0210/DynoConsole-Public-Releases/"
